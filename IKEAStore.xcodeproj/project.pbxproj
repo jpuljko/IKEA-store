@@ -11,6 +11,7 @@
 		3AA270442762B59E001BC713 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA270432762B59E001BC713 /* ContentView.swift */; };
 		3AA270462762B59F001BC713 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AA270452762B59F001BC713 /* Assets.xcassets */; };
 		3AA270492762B59F001BC713 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AA270482762B59F001BC713 /* Preview Assets.xcassets */; };
+		3AA270572762B66A001BC713 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA270562762B66A001BC713 /* FooterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		3AA270432762B59E001BC713 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3AA270452762B59F001BC713 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3AA270482762B59F001BC713 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3AA270562762B66A001BC713 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,11 @@
 			children = (
 				3AA270412762B59D001BC713 /* IKEAStoreApp.swift */,
 				3AA270432762B59E001BC713 /* ContentView.swift */,
+				3AA270552762B64D001BC713 /* Utilities */,
+				3AA270542762B646001BC713 /* Extensions */,
+				3AA270532762B63F001BC713 /* Data */,
+				3AA270522762B632001BC713 /* Model */,
+				3AA2704F2762B615001BC713 /* View */,
 				3AA270452762B59F001BC713 /* Assets.xcassets */,
 				3AA270472762B59F001BC713 /* Preview Content */,
 			);
@@ -65,6 +72,58 @@
 				3AA270482762B59F001BC713 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3AA2704F2762B615001BC713 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3AA270512762B62A001BC713 /* Detail */,
+				3AA270502762B621001BC713 /* Home */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3AA270502762B621001BC713 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3AA270562762B66A001BC713 /* FooterView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		3AA270512762B62A001BC713 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		3AA270522762B632001BC713 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3AA270532762B63F001BC713 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		3AA270542762B646001BC713 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3AA270552762B64D001BC713 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +196,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AA270572762B66A001BC713 /* FooterView.swift in Sources */,
 				3AA270442762B59E001BC713 /* ContentView.swift in Sources */,
 				3AA270422762B59D001BC713 /* IKEAStoreApp.swift in Sources */,
 			);
