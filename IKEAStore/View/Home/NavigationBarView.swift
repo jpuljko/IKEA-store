@@ -10,13 +10,30 @@ import SwiftUI
 struct NavigationBarView: View {
     var body: some View {
         HStack {
-            Button(action: {}, label: {
-                Image(systemName: "magnifyingglass")
-                    .font(.title)
-                    .foregroundColor(.black)
-            })
+            
+//            TODO: REMOVE PLACEHOLDER AND ADD LOGO
+            Text("IKEA Logo")
+                .font(.title)
             
             Spacer()
+            
+            Button(action: {}, label: {
+                    Image(systemName: "location")
+                        .font(.title)
+                        .foregroundColor(.black)
+            })
+            
+            Button(action: {}, label: {
+                    Image(systemName: "person.crop.circle")
+                        .font(.title)
+                        .foregroundColor(.black)
+            })
+            
+            Button(action: {}, label: {
+                    Image(systemName: "heart")
+                        .font(.title)
+                        .foregroundColor(.black)
+            })
             
             Button(action: {}, label: {
                 ZStack {
