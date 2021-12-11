@@ -16,6 +16,8 @@
 		3A99D5442764D91900C8B6B1 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A99D5432764D91900C8B6B1 /* SectionView.swift */; };
 		3A99D5462764E53500C8B6B1 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A99D5452764E53500C8B6B1 /* TitleView.swift */; };
 		3A99D5482764EA1100C8B6B1 /* product.json in Resources */ = {isa = PBXBuildFile; fileRef = 3A99D5472764EA1100C8B6B1 /* product.json */; };
+		3A99D54A2764FA6C00C8B6B1 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A99D5492764FA6C00C8B6B1 /* ProductModel.swift */; };
+		3A99D54C2764FD6500C8B6B1 /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A99D54B2764FD6500C8B6B1 /* ProductView.swift */; };
 		3AA270422762B59D001BC713 /* IKEAStoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA270412762B59D001BC713 /* IKEAStoreApp.swift */; };
 		3AA270442762B59E001BC713 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA270432762B59E001BC713 /* ContentView.swift */; };
 		3AA270462762B59F001BC713 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AA270452762B59F001BC713 /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 		3A99D5432764D91900C8B6B1 /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
 		3A99D5452764E53500C8B6B1 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
 		3A99D5472764EA1100C8B6B1 /* product.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = product.json; sourceTree = SOURCE_ROOT; };
+		3A99D5492764FA6C00C8B6B1 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		3A99D54B2764FD6500C8B6B1 /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
 		3AA2703E2762B59D001BC713 /* IKEAStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IKEAStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AA270412762B59D001BC713 /* IKEAStoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IKEAStoreApp.swift; sourceTree = "<group>"; };
 		3AA270432762B59E001BC713 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -112,6 +116,7 @@
 				3A99D5412764D73000C8B6B1 /* CategoryGridView.swift */,
 				3A99D5432764D91900C8B6B1 /* SectionView.swift */,
 				3A99D5452764E53500C8B6B1 /* TitleView.swift */,
+				3A99D54B2764FD6500C8B6B1 /* ProductView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -127,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				3A9272B32764BB0000859D30 /* CategoryModel.swift */,
+				3A99D5492764FA6C00C8B6B1 /* ProductModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -233,8 +239,10 @@
 				3A99D5442764D91900C8B6B1 /* SectionView.swift in Sources */,
 				3A99D53C2764CFB500C8B6B1 /* CodableBundleExtension.swift in Sources */,
 				3AA938942763504400EB2D79 /* NavigationBarView.swift in Sources */,
+				3A99D54C2764FD6500C8B6B1 /* ProductView.swift in Sources */,
 				3A99D53E2764D23900C8B6B1 /* Constants.swift in Sources */,
 				3A9272B42764BB0100859D30 /* CategoryModel.swift in Sources */,
+				3A99D54A2764FA6C00C8B6B1 /* ProductModel.swift in Sources */,
 				3A99D5422764D73000C8B6B1 /* CategoryGridView.swift in Sources */,
 				3A99D5462764E53500C8B6B1 /* TitleView.swift in Sources */,
 				3A99D5402764D25D00C8B6B1 /* CategoryView.swift in Sources */,

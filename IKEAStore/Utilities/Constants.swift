@@ -12,6 +12,7 @@ let bgColor: Color = Color("ColorBackground")
 let grayColor: Color = Color(UIColor.systemGray4)
 
 let categories: [Category] = Bundle.main.decode("category.json")
+let products: [Product] = Bundle.main.decode("product.json")
 
 let columnSpacing: CGFloat = 10
 let rowSpacing: CGFloat = 10
