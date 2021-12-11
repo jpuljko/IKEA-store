@@ -12,8 +12,10 @@ struct NavigationBarView: View {
         HStack {
             
 //            TODO: REMOVE PLACEHOLDER AND ADD LOGO
-            Text("IKEA Logo")
-                .font(.title)
+            Image("ikea-logo")
+                .resizable()
+                .scaledToFit()
+                .frame(width: 100, height: 50, alignment: .center)
             
             Spacer()
             

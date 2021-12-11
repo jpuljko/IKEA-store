@@ -13,14 +13,14 @@ struct ProductView: View {
     
     var body: some View {
         VStack(alignment: .leading, spacing: 6, content: {
-            ZStack {
-                Image(product.image)
-                    .resizable()
-                    .scaledToFit()
-                    .padding(10)
-            }
-            .background(Color(red: product.color[0], green: product.color[1], blue: product.color[3]))
-            .cornerRadius(12)
+//            ZStack {
+//                Image(product.image)
+//                    .resizable()
+//                    .scaledToFit()
+//                    .padding(10)
+//            }
+//            .background(Color(red: product.color[0], green: product.color[1], blue: product.color[3]))
+//            .cornerRadius(12)
             
             Text(product.name)
                 .font(.title3)
