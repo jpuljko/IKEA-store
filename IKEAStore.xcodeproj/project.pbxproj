@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A9272B22764BA7300859D30 /* category.json in Resources */ = {isa = PBXBuildFile; fileRef = 3A9272B12764BA7300859D30 /* category.json */; };
+		3A9272B42764BB0100859D30 /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9272B32764BB0000859D30 /* CategoryModel.swift */; };
+		3A99D53C2764CFB500C8B6B1 /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A99D53B2764CFB500C8B6B1 /* CodableBundleExtension.swift */; };
+		3A99D53E2764D23900C8B6B1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A99D53D2764D23900C8B6B1 /* Constants.swift */; };
+		3A99D5402764D25D00C8B6B1 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A99D53F2764D25D00C8B6B1 /* CategoryView.swift */; };
+		3A99D5422764D73000C8B6B1 /* CategoryGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A99D5412764D73000C8B6B1 /* CategoryGridView.swift */; };
+		3A99D5442764D91900C8B6B1 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A99D5432764D91900C8B6B1 /* SectionView.swift */; };
 		3AA270422762B59D001BC713 /* IKEAStoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA270412762B59D001BC713 /* IKEAStoreApp.swift */; };
 		3AA270442762B59E001BC713 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA270432762B59E001BC713 /* ContentView.swift */; };
 		3AA270462762B59F001BC713 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AA270452762B59F001BC713 /* Assets.xcassets */; };
@@ -16,6 +23,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A9272B12764BA7300859D30 /* category.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = category.json; sourceTree = SOURCE_ROOT; };
+		3A9272B32764BB0000859D30 /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		3A99D53B2764CFB500C8B6B1 /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
+		3A99D53D2764D23900C8B6B1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3A99D53F2764D25D00C8B6B1 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		3A99D5412764D73000C8B6B1 /* CategoryGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryGridView.swift; sourceTree = "<group>"; };
+		3A99D5432764D91900C8B6B1 /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
 		3AA2703E2762B59D001BC713 /* IKEAStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IKEAStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AA270412762B59D001BC713 /* IKEAStoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IKEAStoreApp.swift; sourceTree = "<group>"; };
 		3AA270432762B59E001BC713 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -90,6 +104,9 @@
 			children = (
 				3AA270562762B66A001BC713 /* FooterView.swift */,
 				3AA938932763504400EB2D79 /* NavigationBarView.swift */,
+				3A99D53F2764D25D00C8B6B1 /* CategoryView.swift */,
+				3A99D5412764D73000C8B6B1 /* CategoryGridView.swift */,
+				3A99D5432764D91900C8B6B1 /* SectionView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -104,6 +121,7 @@
 		3AA270522762B632001BC713 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				3A9272B32764BB0000859D30 /* CategoryModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -111,6 +129,7 @@
 		3AA270532762B63F001BC713 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				3A9272B12764BA7300859D30 /* category.json */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -118,6 +137,7 @@
 		3AA270542762B646001BC713 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				3A99D53B2764CFB500C8B6B1 /* CodableBundleExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -125,6 +145,7 @@
 		3AA270552762B64D001BC713 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				3A99D53D2764D23900C8B6B1 /* Constants.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -187,6 +208,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A9272B22764BA7300859D30 /* category.json in Resources */,
 				3AA270492762B59F001BC713 /* Preview Assets.xcassets in Resources */,
 				3AA270462762B59F001BC713 /* Assets.xcassets in Resources */,
 			);
@@ -201,7 +223,13 @@
 			files = (
 				3AA270572762B66A001BC713 /* FooterView.swift in Sources */,
 				3AA270442762B59E001BC713 /* ContentView.swift in Sources */,
+				3A99D5442764D91900C8B6B1 /* SectionView.swift in Sources */,
+				3A99D53C2764CFB500C8B6B1 /* CodableBundleExtension.swift in Sources */,
 				3AA938942763504400EB2D79 /* NavigationBarView.swift in Sources */,
+				3A99D53E2764D23900C8B6B1 /* Constants.swift in Sources */,
+				3A9272B42764BB0100859D30 /* CategoryModel.swift in Sources */,
+				3A99D5422764D73000C8B6B1 /* CategoryGridView.swift in Sources */,
+				3A99D5402764D25D00C8B6B1 /* CategoryView.swift in Sources */,
 				3AA270422762B59D001BC713 /* IKEAStoreApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
