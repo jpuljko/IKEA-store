@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
         ZStack {
             VStack(spacing: 0) {
@@ -19,6 +20,8 @@ struct ContentView: View {
                     .shadow(color: Color.black.opacity(0.05), radius: 5, x: 0, y: 5)
                 
                 CategoryGridView()
+                
+                TitleView(title: "CHAIRS")
                 
                 Spacer()
                 

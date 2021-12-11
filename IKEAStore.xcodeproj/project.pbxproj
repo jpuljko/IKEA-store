@@ -14,6 +14,7 @@
 		3A99D5402764D25D00C8B6B1 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A99D53F2764D25D00C8B6B1 /* CategoryView.swift */; };
 		3A99D5422764D73000C8B6B1 /* CategoryGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A99D5412764D73000C8B6B1 /* CategoryGridView.swift */; };
 		3A99D5442764D91900C8B6B1 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A99D5432764D91900C8B6B1 /* SectionView.swift */; };
+		3A99D5462764E53500C8B6B1 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A99D5452764E53500C8B6B1 /* TitleView.swift */; };
 		3AA270422762B59D001BC713 /* IKEAStoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA270412762B59D001BC713 /* IKEAStoreApp.swift */; };
 		3AA270442762B59E001BC713 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA270432762B59E001BC713 /* ContentView.swift */; };
 		3AA270462762B59F001BC713 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AA270452762B59F001BC713 /* Assets.xcassets */; };
@@ -30,6 +31,7 @@
 		3A99D53F2764D25D00C8B6B1 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
 		3A99D5412764D73000C8B6B1 /* CategoryGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryGridView.swift; sourceTree = "<group>"; };
 		3A99D5432764D91900C8B6B1 /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
+		3A99D5452764E53500C8B6B1 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
 		3AA2703E2762B59D001BC713 /* IKEAStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IKEAStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AA270412762B59D001BC713 /* IKEAStoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IKEAStoreApp.swift; sourceTree = "<group>"; };
 		3AA270432762B59E001BC713 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				3A99D53F2764D25D00C8B6B1 /* CategoryView.swift */,
 				3A99D5412764D73000C8B6B1 /* CategoryGridView.swift */,
 				3A99D5432764D91900C8B6B1 /* SectionView.swift */,
+				3A99D5452764E53500C8B6B1 /* TitleView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -229,6 +232,7 @@
 				3A99D53E2764D23900C8B6B1 /* Constants.swift in Sources */,
 				3A9272B42764BB0100859D30 /* CategoryModel.swift in Sources */,
 				3A99D5422764D73000C8B6B1 /* CategoryGridView.swift in Sources */,
+				3A99D5462764E53500C8B6B1 /* TitleView.swift in Sources */,
 				3A99D5402764D25D00C8B6B1 /* CategoryView.swift in Sources */,
 				3AA270422762B59D001BC713 /* IKEAStoreApp.swift in Sources */,
 			);
