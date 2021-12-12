@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A8E4CD82766592C004F1B32 /* CustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8E4CD72766592C004F1B32 /* CustomShape.swift */; };
 		3A91F2712766287600C88510 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A91F2702766287600C88510 /* ProductDetailView.swift */; };
 		3A91F27327662AD200C88510 /* NavigationBarDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A91F27227662AD200C88510 /* NavigationBarDetailView.swift */; };
 		3A91F27527663A9D00C88510 /* HeaderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A91F27427663A9D00C88510 /* HeaderDetailView.swift */; };
@@ -31,6 +32,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A8E4CD72766592C004F1B32 /* CustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShape.swift; sourceTree = "<group>"; };
 		3A91F2702766287600C88510 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
 		3A91F27227662AD200C88510 /* NavigationBarDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarDetailView.swift; sourceTree = "<group>"; };
 		3A91F27427663A9D00C88510 /* HeaderDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderDetailView.swift; sourceTree = "<group>"; };
@@ -88,7 +90,8 @@
 				3AA270412762B59D001BC713 /* IKEAStoreApp.swift */,
 				3AA270432762B59E001BC713 /* ContentView.swift */,
 				3A91F2702766287600C88510 /* ProductDetailView.swift */,
-				3AA270552762B64D001BC713 /* Utilities */,
+				3A8E4CD72766592C004F1B32 /* CustomShape.swift */,
+				3A99D53D2764D23900C8B6B1 /* Constants.swift */,
 				3AA270542762B646001BC713 /* Extensions */,
 				3AA270532762B63F001BC713 /* Data */,
 				3AA270522762B632001BC713 /* Model */,
@@ -166,14 +169,6 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		3AA270552762B64D001BC713 /* Utilities */ = {
-			isa = PBXGroup;
-			children = (
-				3A99D53D2764D23900C8B6B1 /* Constants.swift */,
-			);
-			path = Utilities;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -248,6 +243,7 @@
 			files = (
 				3A91F27327662AD200C88510 /* NavigationBarDetailView.swift in Sources */,
 				3AA270572762B66A001BC713 /* FooterView.swift in Sources */,
+				3A8E4CD82766592C004F1B32 /* CustomShape.swift in Sources */,
 				3A91F2712766287600C88510 /* ProductDetailView.swift in Sources */,
 				3AA270442762B59E001BC713 /* ContentView.swift in Sources */,
 				3A99D5442764D91900C8B6B1 /* SectionView.swift in Sources */,

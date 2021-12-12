@@ -17,13 +17,21 @@ struct TopDetailView: View {
                 Text("$\(sampleProduct.price)")
                     .font(.largeTitle)
                     .fontWeight(.black)
-                    .scaleEffect(1.35, anchor: .leading)
+//                    .scaleEffect(1.35, anchor: .leading)
             })
-            Spacer()
+                .padding(.top, -50)
             
-            Image(sampleProduct.image)
+            Spacer()
+            Spacer()
+
+            ZStack {
+              Image(sampleProduct.image)
                 .resizable()
                 .scaledToFit()
+                .padding(10)
+            } //: ZSTACK
+            .background(Color(.white))
+            .cornerRadius(12)
         })
     }
 }
