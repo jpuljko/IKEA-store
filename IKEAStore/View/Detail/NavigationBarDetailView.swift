@@ -13,16 +13,10 @@ struct NavigationBarDetailView: View {
             Button(action: {}, label: {
                 Image(systemName: "chevron.left")
                     .font(.title)
-                    .foregroundColor(.black)
+                    .foregroundColor(.white)
             })
             
             Spacer()
-            
-            Button(action: {}, label: {
-                Image(systemName: "cart")
-                    .font(.title)
-                    .foregroundColor(.black)
-            })
         }
     }
 }

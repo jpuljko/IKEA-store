@@ -10,11 +10,13 @@ import SwiftUI
 struct HeaderDetailView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 6, content: {
-            Text("Chairs")
+            Text("Homepage")
+                .foregroundColor(.white)
             
             Text(sampleProduct.name)
                 .font(.largeTitle)
                 .fontWeight(.black)
+                .foregroundColor(.white)
         })
     }
 }

@@ -35,10 +35,17 @@ struct ProductDetailView: View {
         
         // DESCRIPTION
         ScrollView(.vertical, showsIndicators: false, content: {
-            Text(sampleProduct.description)
-            .font(.system(.body, design: .rounded))
-            .foregroundColor(.white)
+                Text("Description")
+                .font(.title)
+                .fontWeight(.bold)
+                .foregroundColor(.black)
+                .padding()
+                
+                Text(sampleProduct.description)
+                .font(.system(.body, design: .rounded))
+                .foregroundColor(.black)
             .multilineTextAlignment(.leading)
+            
         }) //: SCROLL
         
         // QUANTITY + FAVOURITE
@@ -51,15 +58,16 @@ struct ProductDetailView: View {
       }) //: VSTACK
       .padding(.horizontal)
       .background(
-        Color.gray
+        Color(UIColor.systemGray4)
           .clipShape(CustomShape())
           .padding(.top, -105)
       )
     }) //: VSTACK
     .zIndex(0)
     .ignoresSafeArea(.all, edges: .all)
-    .background(
-        grayColor).ignoresSafeArea(.all, edges: .all)
+    .background(Color.gray
+                    .ignoresSafeArea(.all, edges: .all)
+                )
   }
 }
 
