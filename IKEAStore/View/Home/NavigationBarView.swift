@@ -13,7 +13,7 @@ struct NavigationBarView: View {
             Image("ikea-logo")
                 .resizable()
                 .scaledToFit()
-                .frame(width: 100, height: 50, alignment: .center)
+                .frame(width: 120, height: 50, alignment: .center)
             
             Spacer()
             
