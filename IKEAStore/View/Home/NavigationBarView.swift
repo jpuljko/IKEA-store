@@ -2,7 +2,7 @@
 //  NavigationBarView.swift
 //  IKEAStore
 //
-//  Created by Josipa Puljko on 10.12.2021..
+//  Created by Josipa Puljko
 //
 
 import SwiftUI
@@ -10,8 +10,6 @@ import SwiftUI
 struct NavigationBarView: View {
     var body: some View {
         HStack {
-            
-//            TODO: REMOVE PLACEHOLDER AND ADD LOGO
             Image("ikea-logo")
                 .resizable()
                 .scaledToFit()

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A91F2712766287600C88510 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A91F2702766287600C88510 /* ProductDetailView.swift */; };
+		3A91F27327662AD200C88510 /* NavigationBarDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A91F27227662AD200C88510 /* NavigationBarDetailView.swift */; };
+		3A91F27527663A9D00C88510 /* HeaderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A91F27427663A9D00C88510 /* HeaderDetailView.swift */; };
+		3A91F27727663C2500C88510 /* TopDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A91F27627663C2500C88510 /* TopDetailView.swift */; };
 		3A9272B22764BA7300859D30 /* category.json in Resources */ = {isa = PBXBuildFile; fileRef = 3A9272B12764BA7300859D30 /* category.json */; };
 		3A9272B42764BB0100859D30 /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9272B32764BB0000859D30 /* CategoryModel.swift */; };
 		3A99D53C2764CFB500C8B6B1 /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A99D53B2764CFB500C8B6B1 /* CodableBundleExtension.swift */; };
@@ -27,6 +31,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A91F2702766287600C88510 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
+		3A91F27227662AD200C88510 /* NavigationBarDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarDetailView.swift; sourceTree = "<group>"; };
+		3A91F27427663A9D00C88510 /* HeaderDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderDetailView.swift; sourceTree = "<group>"; };
+		3A91F27627663C2500C88510 /* TopDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopDetailView.swift; sourceTree = "<group>"; };
 		3A9272B12764BA7300859D30 /* category.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = category.json; sourceTree = SOURCE_ROOT; };
 		3A9272B32764BB0000859D30 /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
 		3A99D53B2764CFB500C8B6B1 /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
@@ -79,6 +87,7 @@
 			children = (
 				3AA270412762B59D001BC713 /* IKEAStoreApp.swift */,
 				3AA270432762B59E001BC713 /* ContentView.swift */,
+				3A91F2702766287600C88510 /* ProductDetailView.swift */,
 				3AA270552762B64D001BC713 /* Utilities */,
 				3AA270542762B646001BC713 /* Extensions */,
 				3AA270532762B63F001BC713 /* Data */,
@@ -124,6 +133,9 @@
 		3AA270512762B62A001BC713 /* Detail */ = {
 			isa = PBXGroup;
 			children = (
+				3A91F27227662AD200C88510 /* NavigationBarDetailView.swift */,
+				3A91F27427663A9D00C88510 /* HeaderDetailView.swift */,
+				3A91F27627663C2500C88510 /* TopDetailView.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -234,18 +246,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A91F27327662AD200C88510 /* NavigationBarDetailView.swift in Sources */,
 				3AA270572762B66A001BC713 /* FooterView.swift in Sources */,
+				3A91F2712766287600C88510 /* ProductDetailView.swift in Sources */,
 				3AA270442762B59E001BC713 /* ContentView.swift in Sources */,
 				3A99D5442764D91900C8B6B1 /* SectionView.swift in Sources */,
 				3A99D53C2764CFB500C8B6B1 /* CodableBundleExtension.swift in Sources */,
 				3AA938942763504400EB2D79 /* NavigationBarView.swift in Sources */,
 				3A99D54C2764FD6500C8B6B1 /* ProductView.swift in Sources */,
+				3A91F27527663A9D00C88510 /* HeaderDetailView.swift in Sources */,
 				3A99D53E2764D23900C8B6B1 /* Constants.swift in Sources */,
 				3A9272B42764BB0100859D30 /* CategoryModel.swift in Sources */,
 				3A99D54A2764FA6C00C8B6B1 /* ProductModel.swift in Sources */,
 				3A99D5422764D73000C8B6B1 /* CategoryGridView.swift in Sources */,
 				3A99D5462764E53500C8B6B1 /* TitleView.swift in Sources */,
 				3A99D5402764D25D00C8B6B1 /* CategoryView.swift in Sources */,
+				3A91F27727663C2500C88510 /* TopDetailView.swift in Sources */,
 				3AA270422762B59D001BC713 /* IKEAStoreApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -2,7 +2,7 @@
 //  Constants.swift
 //  IKEAStore
 //
-//  Created by Josipa Puljko on 11.12.2021..
+//  Created by Josipa Puljko
 //
 
 import Foundation
@@ -13,6 +13,7 @@ let grayColor: Color = Color(UIColor.systemGray4)
 
 let categories: [Category] = Bundle.main.decode("category.json")
 let products: [Product] = Bundle.main.decode("product.json")
+let sampleProduct: Product = products[0]
 
 let columnSpacing: CGFloat = 10
 let rowSpacing: CGFloat = 10

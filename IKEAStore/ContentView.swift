@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  IKEAStore
 //
-//  Created by Josipa Puljko on 09.12.2021..
+//  Created by Josipa Puljko
 //
 
 import SwiftUI
@@ -39,7 +39,6 @@ struct ContentView: View {
             })
         }
         .ignoresSafeArea(.all, edges: .top)
-//        TODO: FIX BACKGROUND - TURN IT INTO A LIGHT GRAY
         .background(bgColor.ignoresSafeArea(.all, edges: .all))
     }
 }

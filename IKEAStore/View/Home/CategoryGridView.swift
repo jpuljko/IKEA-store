@@ -2,7 +2,7 @@
 //  CategoryGridView.swift
 //  IKEAStore
 //
-//  Created by Josipa Puljko on 11.12.2021..
+//  Created by Josipa Puljko
 //
 
 import SwiftUI

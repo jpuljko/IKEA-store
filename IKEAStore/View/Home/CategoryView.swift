@@ -2,7 +2,7 @@
 //  CategoryView.swift
 //  IKEAStore
 //
-//  Created by Josipa Puljko on 11.12.2021..
+//  Created by Josipa Puljko
 //
 
 import SwiftUI
@@ -26,6 +26,7 @@ struct CategoryView: View {
                     RoundedRectangle(cornerRadius: 12)
                         .stroke(Color.gray, lineWidth: 1)
             )
+            .frame(width: 150, height: 50, alignment: .center)
         })
     }
 }

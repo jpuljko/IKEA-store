@@ -2,7 +2,7 @@
 //  ProductView.swift
 //  IKEAStore
 //
-//  Created by Josipa Puljko on 11.12.2021..
+//  Created by Josipa Puljko
 //
 
 import SwiftUI
@@ -20,8 +20,6 @@ struct ProductView: View {
           .scaledToFit()
           .padding(10)
       }
-      .background(Color(red: product.color[0], green: product.color[1], blue: product.color[2]))
-      .cornerRadius(12)
 
       Text(product.name)
         .font(.title3)
