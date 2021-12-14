@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ProductDetailView: View {
+    
+    @EnvironmentObject var store: Store
 
   
   var body: some View {
@@ -37,7 +39,7 @@ struct ProductDetailView: View {
             }
             .padding(.top, 40)
             
-                Text(sampleProduct.description)
+            Text(store.selectedProduct?.description ?? sampleProduct.description)
                 .font(.system(.body, design: .rounded))
                 .foregroundColor(.black)
             .multilineTextAlignment(.leading)
@@ -58,7 +60,6 @@ struct ProductDetailView: View {
             
             AddToCartDetailView()
                 .padding()
-                .padding(.bottom, 50)
 
       })
       .padding(.horizontal)
@@ -79,6 +80,7 @@ struct ProductDetailView: View {
 struct ProductDetailView_Previews: PreviewProvider {
   static var previews: some View {
     ProductDetailView()
+          .environmentObject(Store())
       .previewLayout(.fixed(width: 375, height: 812))
   }
 }
