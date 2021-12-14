@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3A8E4CD82766592C004F1B32 /* CustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8E4CD72766592C004F1B32 /* CustomShape.swift */; };
+		3A8C54C02766785C0087D6EE /* AddToCartDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8C54BF2766785C0087D6EE /* AddToCartDetailView.swift */; };
+		3A91D5E427690DA70012766E /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A91D5E327690DA70012766E /* Store.swift */; };
 		3A91F2712766287600C88510 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A91F2702766287600C88510 /* ProductDetailView.swift */; };
 		3A91F27327662AD200C88510 /* NavigationBarDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A91F27227662AD200C88510 /* NavigationBarDetailView.swift */; };
 		3A91F27527663A9D00C88510 /* HeaderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A91F27427663A9D00C88510 /* HeaderDetailView.swift */; };
@@ -32,7 +33,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3A8E4CD72766592C004F1B32 /* CustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShape.swift; sourceTree = "<group>"; };
+		3A8C54BF2766785C0087D6EE /* AddToCartDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToCartDetailView.swift; sourceTree = "<group>"; };
+		3A91D5E327690DA70012766E /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 		3A91F2702766287600C88510 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
 		3A91F27227662AD200C88510 /* NavigationBarDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarDetailView.swift; sourceTree = "<group>"; };
 		3A91F27427663A9D00C88510 /* HeaderDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderDetailView.swift; sourceTree = "<group>"; };
@@ -68,6 +70,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A91D5E227690D440012766E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3A91D5E327690DA70012766E /* Store.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		3AA270352762B59D001BC713 = {
 			isa = PBXGroup;
 			children = (
@@ -90,12 +100,12 @@
 				3AA270412762B59D001BC713 /* IKEAStoreApp.swift */,
 				3AA270432762B59E001BC713 /* ContentView.swift */,
 				3A91F2702766287600C88510 /* ProductDetailView.swift */,
-				3A8E4CD72766592C004F1B32 /* CustomShape.swift */,
 				3A99D53D2764D23900C8B6B1 /* Constants.swift */,
 				3AA270542762B646001BC713 /* Extensions */,
 				3AA270532762B63F001BC713 /* Data */,
 				3AA270522762B632001BC713 /* Model */,
 				3AA2704F2762B615001BC713 /* View */,
+				3A91D5E227690D440012766E /* ViewModel */,
 				3AA270452762B59F001BC713 /* Assets.xcassets */,
 				3AA270472762B59F001BC713 /* Preview Content */,
 			);
@@ -139,6 +149,7 @@
 				3A91F27227662AD200C88510 /* NavigationBarDetailView.swift */,
 				3A91F27427663A9D00C88510 /* HeaderDetailView.swift */,
 				3A91F27627663C2500C88510 /* TopDetailView.swift */,
+				3A8C54BF2766785C0087D6EE /* AddToCartDetailView.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -243,9 +254,10 @@
 			files = (
 				3A91F27327662AD200C88510 /* NavigationBarDetailView.swift in Sources */,
 				3AA270572762B66A001BC713 /* FooterView.swift in Sources */,
-				3A8E4CD82766592C004F1B32 /* CustomShape.swift in Sources */,
+				3A91D5E427690DA70012766E /* Store.swift in Sources */,
 				3A91F2712766287600C88510 /* ProductDetailView.swift in Sources */,
 				3AA270442762B59E001BC713 /* ContentView.swift in Sources */,
+				3A8C54C02766785C0087D6EE /* AddToCartDetailView.swift in Sources */,
 				3A99D5442764D91900C8B6B1 /* SectionView.swift in Sources */,
 				3A99D53C2764CFB500C8B6B1 /* CodableBundleExtension.swift in Sources */,
 				3AA938942763504400EB2D79 /* NavigationBarView.swift in Sources */,

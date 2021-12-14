@@ -2,7 +2,7 @@
 //  TopDetailView.swift
 //  IKEAStore
 //
-//  Created by Josipa Puljko on 12.12.2021..
+//  Created by Josipa Puljko
 //
 
 import SwiftUI
@@ -17,9 +17,8 @@ struct TopDetailView: View {
                 Text("$\(sampleProduct.price)")
                     .font(.largeTitle)
                     .fontWeight(.black)
-//                    .scaleEffect(1.35, anchor: .leading)
             })
-                .padding(.top, -50)
+                .padding(.top, -70)
             
             Spacer()
             Spacer()
