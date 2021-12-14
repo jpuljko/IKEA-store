@@ -5,7 +5,6 @@
 //  Created by Josipa Puljko
 //
 
-
 import SwiftUI
 
 struct ContentView: View {
@@ -20,15 +19,15 @@ struct ContentView: View {
             .padding(.horizontal, 15)
             .padding(.bottom)
             .padding(.top, UIApplication.shared.windows.first?.safeAreaInsets.top)
-            .background(Color.white)
-            .shadow(color: Color.black.opacity(0.05), radius: 5, x: 0, y: 5)
           
           ScrollView(.vertical, showsIndicators: false, content: {
             VStack(spacing: 0) {
                 CarouselTabView()
-                .frame(height: UIScreen.main.bounds.width / 1.475)
-                .padding(.vertical, 20)
-              
+                .frame(height: UIScreen.main.bounds.width / 1.700)
+                .padding(.vertical, 10)
+
+                SearchBarView()
+                
               CategoryGridView()
               
               TitleView(title: "Chairs")
@@ -37,11 +36,8 @@ struct ContentView: View {
                 ForEach(products) { product in
                   ProductView(product: product)
                     .onTapGesture {
-                      
-                      withAnimation(.easeOut) {
                         store.selectedProduct = product
                         store.showingProduct = true
-                      }
                     }
                 }
               })
