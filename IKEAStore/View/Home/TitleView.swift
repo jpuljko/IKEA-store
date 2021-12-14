@@ -29,6 +29,5 @@ struct TitleView_Previews: PreviewProvider {
     static var previews: some View {
         TitleView(title: "CHAIRS")
             .previewLayout(.sizeThatFits)
-            .background(bgColor)
     }
 }

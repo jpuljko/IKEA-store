@@ -34,6 +34,5 @@ struct SectionView_Previews: PreviewProvider {
     SectionView(rotateClockwise: false)
       .previewLayout(.fixed(width: 120, height: 240))
       .padding()
-      .background(bgColor)
   }
 }

@@ -31,7 +31,7 @@ struct TopDetailView: View {
                 .resizable()
                 .scaledToFit()
                 .padding(10)
-            } //: ZSTACK
+            }
             .background(Color(.white))
             .cornerRadius(12)
         })

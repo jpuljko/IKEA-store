@@ -40,6 +40,5 @@ struct ProductItemView_Previews: PreviewProvider {
     ProductView(product: products[0])
       .previewLayout(.fixed(width: 200, height: 300))
       .padding()
-      .background(bgColor)
   }
 }

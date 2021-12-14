@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A008F342769229D008A2077 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A008F332769229D008A2077 /* CarouselView.swift */; };
+		3A008F36276923B4008A2077 /* livingroom.json in Resources */ = {isa = PBXBuildFile; fileRef = 3A008F35276923B4008A2077 /* livingroom.json */; };
+		3A008F382769240C008A2077 /* Livingroom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A008F372769240C008A2077 /* Livingroom.swift */; };
+		3A008F3A2769253A008A2077 /* CarouselTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A008F392769253A008A2077 /* CarouselTabView.swift */; };
 		3A8C54C02766785C0087D6EE /* AddToCartDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8C54BF2766785C0087D6EE /* AddToCartDetailView.swift */; };
 		3A91D5E427690DA70012766E /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A91D5E327690DA70012766E /* Store.swift */; };
 		3A91F2712766287600C88510 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A91F2702766287600C88510 /* ProductDetailView.swift */; };
@@ -33,6 +37,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A008F332769229D008A2077 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
+		3A008F35276923B4008A2077 /* livingroom.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = livingroom.json; sourceTree = SOURCE_ROOT; };
+		3A008F372769240C008A2077 /* Livingroom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Livingroom.swift; sourceTree = "<group>"; };
+		3A008F392769253A008A2077 /* CarouselTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselTabView.swift; sourceTree = "<group>"; };
 		3A8C54BF2766785C0087D6EE /* AddToCartDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToCartDetailView.swift; sourceTree = "<group>"; };
 		3A91D5E327690DA70012766E /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 		3A91F2702766287600C88510 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
@@ -139,6 +147,8 @@
 				3A99D5432764D91900C8B6B1 /* SectionView.swift */,
 				3A99D5452764E53500C8B6B1 /* TitleView.swift */,
 				3A99D54B2764FD6500C8B6B1 /* ProductView.swift */,
+				3A008F332769229D008A2077 /* CarouselView.swift */,
+				3A008F392769253A008A2077 /* CarouselTabView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -159,6 +169,7 @@
 			children = (
 				3A9272B32764BB0000859D30 /* CategoryModel.swift */,
 				3A99D5492764FA6C00C8B6B1 /* ProductModel.swift */,
+				3A008F372769240C008A2077 /* Livingroom.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -168,6 +179,7 @@
 			children = (
 				3A9272B12764BA7300859D30 /* category.json */,
 				3A99D5472764EA1100C8B6B1 /* product.json */,
+				3A008F35276923B4008A2077 /* livingroom.json */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -241,6 +253,7 @@
 				3A9272B22764BA7300859D30 /* category.json in Resources */,
 				3A99D5482764EA1100C8B6B1 /* product.json in Resources */,
 				3AA270492762B59F001BC713 /* Preview Assets.xcassets in Resources */,
+				3A008F36276923B4008A2077 /* livingroom.json in Resources */,
 				3AA270462762B59F001BC713 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,15 +272,18 @@
 				3AA270442762B59E001BC713 /* ContentView.swift in Sources */,
 				3A8C54C02766785C0087D6EE /* AddToCartDetailView.swift in Sources */,
 				3A99D5442764D91900C8B6B1 /* SectionView.swift in Sources */,
+				3A008F382769240C008A2077 /* Livingroom.swift in Sources */,
 				3A99D53C2764CFB500C8B6B1 /* CodableBundleExtension.swift in Sources */,
 				3AA938942763504400EB2D79 /* NavigationBarView.swift in Sources */,
 				3A99D54C2764FD6500C8B6B1 /* ProductView.swift in Sources */,
+				3A008F342769229D008A2077 /* CarouselView.swift in Sources */,
 				3A91F27527663A9D00C88510 /* HeaderDetailView.swift in Sources */,
 				3A99D53E2764D23900C8B6B1 /* Constants.swift in Sources */,
 				3A9272B42764BB0100859D30 /* CategoryModel.swift in Sources */,
 				3A99D54A2764FA6C00C8B6B1 /* ProductModel.swift in Sources */,
 				3A99D5422764D73000C8B6B1 /* CategoryGridView.swift in Sources */,
 				3A99D5462764E53500C8B6B1 /* TitleView.swift in Sources */,
+				3A008F3A2769253A008A2077 /* CarouselTabView.swift in Sources */,
 				3A99D5402764D25D00C8B6B1 /* CategoryView.swift in Sources */,
 				3A91F27727663C2500C88510 /* TopDetailView.swift in Sources */,
 				3AA270422762B59D001BC713 /* IKEAStoreApp.swift in Sources */,

@@ -36,6 +36,5 @@ struct CategoryView_Previews: PreviewProvider {
         CategoryView(category: categories[0])
             .previewLayout(.sizeThatFits)
             .padding()
-            .background(bgColor)
     }
 }

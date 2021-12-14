@@ -8,11 +8,11 @@
 import Foundation
 import SwiftUI
 
-let bgColor: Color = Color("ColorBackground")
 let grayColor: Color = Color(UIColor.systemGray4)
 
 let categories: [Category] = Bundle.main.decode("category.json")
 let products: [Product] = Bundle.main.decode("product.json")
+let livingrooms: [Livingroom] = Bundle.main.decode("livingroom.json")
 let sampleProduct: Product = products[0]
 
 let columnSpacing: CGFloat = 10
