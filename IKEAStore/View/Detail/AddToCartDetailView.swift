@@ -2,7 +2,7 @@
 //  AddToCartDetailView.swift
 //  IKEAStore
 //
-//  Created by Josipa Puljko on 12.12.2021..
+//  Created by Josipa Puljko
 //
 
 import SwiftUI

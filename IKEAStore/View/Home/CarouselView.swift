@@ -2,7 +2,7 @@
 //  CarouselView.swift
 //  IKEAStore
 //
-//  Created by Josipa Puljko on 14.12.2021..
+//  Created by Josipa Puljko
 //
 
 import SwiftUI

@@ -8,9 +8,8 @@
 import SwiftUI
 
 struct ProductDetailView: View {
-    
-    @EnvironmentObject var store: Store
 
+  @EnvironmentObject var store: Store
   
   var body: some View {
     VStack(alignment: .leading, spacing: 5, content: {

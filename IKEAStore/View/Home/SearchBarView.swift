@@ -14,6 +14,7 @@ struct SearchBarView: View {
     var body: some View {
         HStack {
             TextField("Search ...", text: $userInput)
+                .font(.title2)
                             .padding(20)
                             .padding(.horizontal, 25)
                             .background(Color(.systemGray6))
@@ -21,6 +22,7 @@ struct SearchBarView: View {
                             .overlay(
                                 HStack {
                                     Image(systemName: "magnifyingglass")
+                                        .font(.title2)
                                         .foregroundColor(.gray)
                                         .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
                                         .padding(.leading, 8)
