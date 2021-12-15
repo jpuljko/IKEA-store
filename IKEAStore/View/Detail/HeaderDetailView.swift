@@ -16,7 +16,7 @@ struct HeaderDetailView: View {
             Text("Homepage")
                 .foregroundColor(.white)
             
-            Text(store.selectedProduct?.name ?? sampleProduct.name)
+            Text(store.selectedProduct?.name ?? productPlaceholder.name)
                 .font(.largeTitle)
                 .fontWeight(.black)
                 .foregroundColor(.white)

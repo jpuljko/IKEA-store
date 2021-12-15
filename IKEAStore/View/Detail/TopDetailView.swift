@@ -17,7 +17,7 @@ struct TopDetailView: View {
                 Text("Price")
                     .fontWeight(.semibold)
                 
-                Text("$\(store.selectedProduct?.price ?? sampleProduct.price)")
+                Text("$\(store.selectedProduct?.price ?? productPlaceholder.price)")
                     .font(.largeTitle)
                     .fontWeight(.black)
             })
@@ -27,7 +27,7 @@ struct TopDetailView: View {
             Spacer()
 
             ZStack {
-                Image(store.selectedProduct?.image ?? sampleProduct.image)
+                Image(store.selectedProduct?.image ?? productPlaceholder.image)
                 .resizable()
                 .scaledToFit()
                 .padding(10)

@@ -39,7 +39,7 @@ struct ProductDetailView: View {
             }
             .padding(.top, 40)
             
-            Text(store.selectedProduct?.description ?? sampleProduct.description)
+            Text(store.selectedProduct?.description ?? productPlaceholder.description)
                 .font(.system(.body, design: .rounded))
                 .foregroundColor(.black)
             .multilineTextAlignment(.leading)
